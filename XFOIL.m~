@@ -104,13 +104,13 @@ dataBuffer = textscan(fidCP,'%f %f','HeaderLines',3,...                     % Re
                                      'CollectOutput',1,...
                                      'Delimiter','');
 fclose(fidCP);                                                              % Close the file
-delete(saveFlnmCp);                                                         % Delete the file
+%dlete(saveFlnmCp);                                                         % Delete the file
 
 % Save airfoil Cp data to function solution variable
 xFoilResults.X  = dataBuffer{1,1}(:,1);                                     % X-data points%
 xFoilResults.Y  = 0.;                                                       % Y-data points are not provided in this file
 xFoilResults.CP  = dataBuffer{1,1}(:,2);                                    % Cp-data
-%xFoilResults.CP = dataBuffer{1,1}(:,3);                                    % Cp data (old format)
+%xFoilResults.CP = dataBuffer{1,1}(:,3);                                    % Cp data (old)
 
 %% READ AIRFOIL COORDINATES
 
@@ -133,7 +133,7 @@ xFoilResults.YB = YB;                                                       % Ai
 % Load and read polar file (Save_Polar.txt)
 fidPolar = fopen(saveFlnmPol);                                              % Open polar data file for reading
 
-dataBuffer = textscan(fidPolar,'%f %f %f %f %f %f %f %f %f','CollectOutput',1,... % Read data from file
+dataBuffer = textscan(fidPolar,'%f %f %f %f %f %f %f','CollectOutput',1,... % Read data from file
                                  'Delimiter','','HeaderLines',12);
 fclose(fidPolar);                                                           % Close the file
 delete(saveFlnmPol);                                                        % Delete the file

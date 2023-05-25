@@ -11,7 +11,7 @@ You can install Xfoil in any folder, then just copy the program "xfoil" from Xfo
 This is the deafult position from which is called from Matlab subroutine.
 
 
-# Original documentation (stiil valid for the Matlab part)
+# Original documentation
 
  The repository contains code related to panel methods.  This includes scripts and functions, in both MATLAB and Python.  It will be updated continuously as I finish the video series with the final Source Panel Method (SPM) and Vortex Panel Method (VPM) code.  Explanations of the different files can be found in the sections below, which are pretty much the same as you'll find on my [website launching page](http://www.joshtheengineer.com/panel-methods/).  Links to my YouTube videos and blog posts on my website are included.  Note that functions are always named in all caps.
 

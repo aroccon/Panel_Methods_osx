@@ -17,7 +17,7 @@
 % - COMPUTE_CIRCULATION.m
 % 
 % Programs Needed:
-% - xfoil.exe
+% - xfoil (executable for OS-X)
 % 
 % Folder Needed:
 % - Airfoil_DAT_Selig: folder containing all Selig-format airfoils
