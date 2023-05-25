@@ -33,7 +33,7 @@ clc;
 % User-defined knowns
 Vinf = 1;                                                                   % Freestream velocity
 AoA  = 0;                                                                   % Angle of attack [deg]
-numB = 9;                                                                   % Number of boundary points (including endpoint)
+numB = 55;                                                                   % Number of boundary points (including endpoint)
 tO   = (360/(numB-1))/2;                                                    % Boundary point angle offset [deg]
 
 % Plotting flags
@@ -237,6 +237,7 @@ if (flagPlot(1) == 1)
     end
     xlabel('X Units');                                                      % Set X-label
     ylabel('Y Units');                                                      % Set Y-label
+    title('Shape andd normal vectors');                                     % Set title
     axis equal;                                                             % Set axes equal
     zoom reset;                                                             % Reset zoom
 end
@@ -259,6 +260,7 @@ if (flagPlot(2) == 1)
     axis equal;                                                             % Set axes equal
     xlabel('X Units');                                                      % Set X-label
     ylabel('Y Units');                                                      % Set Y-label
+    title('Geometry and panels');                                     % Set title
     zoom reset;                                                             % Reset zoom
 end
 
@@ -274,6 +276,7 @@ if (flagPlot(3) == 1)
     ylabel('Cp');                                                           % Set Y-label
     xlim([0 2*pi]);                                                         % Set X-limits
     ylim([-3.5 1.5]);                                                       % Set Y-limits
+    title('Analytical and pressure coefficient plot');                      % Set title
     legend([pA,pC],{'Analytical','SPM'},'Location','S');                    % Add legend
 end
 
@@ -294,6 +297,7 @@ if (flagPlot(4) == 1)
     fill(XB,YB,'k');                                                        % Plot polygon
     xlim(xVals);                                                            % Set X-limits
     ylim(yVals);                                                            % Set Y-limits
+    title('Streamlines');                                                   % Set title
     zoom reset;                                                             % Reset zoom
 end
 
@@ -310,5 +314,7 @@ if (flagPlot(5) == 1)
     fill(XB,YB,'k');                                                        % Plot polygon
     xlim(xVals);                                                            % Set X-limits
     ylim(yVals);                                                            % Set Y-limits
+    title('Pressure coefficient contours');                                 % Set title
+    colorbar
     zoom reset;                                                             % Reset zoom
 end

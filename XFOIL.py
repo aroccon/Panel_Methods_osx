@@ -99,7 +99,7 @@ def XFOIL(NACA,PPAR,AoA,flagAirfoil):
     fid.close()                                                                 # Close the input file
     
     # Run the XFoil calling command
-    os.system("xfoil.exe < xfoil_input.inp")                                    # Run XFoil with the input file just created
+    os.system("./xfoil < xfoil_input.inp")                                    # Run XFoil with the input file just created
     
     # Delete file after running
     if os.path.exists('xfoil_input.inp'):                                       # If the input file exists
