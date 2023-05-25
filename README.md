@@ -1,6 +1,14 @@
 # Panel_Methods
 
-This repository contains all the code related to panel methods.  This includes scripts and functions, in both MATLAB and Python.  It will be updated continuously as I finish the video series with the final Source Panel Method (SPM) and Vortex Panel Method (VPM) code.  Explanations of the different files can be found in the sections below, which are pretty much the same as you'll find on my [website launching page](http://www.joshtheengineer.com/panel-methods/).  Links to my YouTube videos and blog posts on my website are included.  Note that functions are always named in all caps.
+This repository contains a version compatible with the OS-X enviornmetn of the panel methods developed by jte0419.
+Original repository: [Original repository ](https://github.com/jte0419/Panel_Methods)
+
+At the moment, only the Matlab version has been ported and tested on OS-X.
+
+
+# Original documentation (stiil valid for the Matlab part)
+
+ The repository contains code related to panel methods.  This includes scripts and functions, in both MATLAB and Python.  It will be updated continuously as I finish the video series with the final Source Panel Method (SPM) and Vortex Panel Method (VPM) code.  Explanations of the different files can be found in the sections below, which are pretty much the same as you'll find on my [website launching page](http://www.joshtheengineer.com/panel-methods/).  Links to my YouTube videos and blog posts on my website are included.  Note that functions are always named in all caps.
 
 ## UIUC Airfoil Database File Download
 
