@@ -86,7 +86,7 @@ end
 
 fclose(fid);                                                                % Close the input file
 
-cmd = 'xfoil.exe < xfoil_input.inp';                                        % Write command to run XFoil
+cmd = './xfoil < xfoil_input.inp';                                          % Write command to run XFoil
 
 [~,~] = system(cmd);                                                        % Run XFoil with the input file
 
