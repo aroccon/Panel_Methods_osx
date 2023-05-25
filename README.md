@@ -1,9 +1,13 @@
 # Panel_Methods
 
-This repository contains a version compatible with the OS-X enviornmetn of the panel methods developed by jte0419.
-Original repository: [Original repository ](https://github.com/jte0419/Panel_Methods)
+This repository contains a version compatible with the OS-X enviornmetn of the panel methods developed and presented by jte0419.
+[Original repository ](https://github.com/jte0419/Panel_Methods)
 
 At the moment, only the Matlab version has been ported and tested on OS-X.
+
+How to install Xfoil for MAC OS X: [Xfoil_for_mac](https://github.com/nolankucd/Xfoil-for-Mac)
+You can install Xfoil in any folder, then just copy the program "xfoil" from Xfoil-for-Mac/bin to the main folder of this repository.
+This is the deafult position from which is called from Matlab subroutine.
 
 
 # Original documentation (stiil valid for the Matlab part)
