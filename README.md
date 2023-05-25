@@ -10,6 +10,10 @@ How to install Xfoil for MAC OS X: [Xfoil_for_mac](https://github.com/nolankucd/
 You can install Xfoil in any folder, then just copy the program "xfoil" from Xfoil-for-Mac/bin to the main folder of this repository.
 This is the deafult position from which is called from Matlab subroutine.
 
+Fixed bugs (24/05/2023 Matlab versions)
+-Wrong reading of the Cp_data results obtained from xfoil, only X-column is now provided (XFOIL.m)
+-Wrong reading of the Global results (CL,CD,CM,etc.) obtained from xfoil, xfoil (XFOIL.m)
+
 
 # Original documentation
 
