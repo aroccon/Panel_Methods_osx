@@ -19,7 +19,7 @@
 % - COMPUTE_CIRCULATION.m
 % 
 % Programs Needed:
-% - xfoil.exe
+% - xfoil (compiled for OS X in this case)
 % 
 % Folder Needed:
 % - Airfoil_DAT_Selig: folder containing all Selig-format airfoils
@@ -63,8 +63,8 @@ flagAirfoil.XFoilLoad   = 0;                                                % Lo
 
 % User-defined knowns
 Vinf = 1;                                                                   % Freestream velocity [] (just leave this at 1)
-AoA  = 0;                                                                   % Angle of attack [deg]
-NACA = '2412';                                                              % NACA airfoil to load [####(#)]
+AoA  = 15;                                                                   % Angle of attack [deg]
+NACA = '4412';    % 1408,                                                          % NACA airfoil to load [####(#)]
 
 % Plotting flags
 flagPlot = [0;          % Airfoil with panel normal vectors

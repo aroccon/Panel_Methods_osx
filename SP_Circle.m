@@ -33,7 +33,7 @@ clc;
 % User-defined knowns
 Vinf = 1;                                                                   % Freestream velocity
 AoA  = 0;                                                                   % Angle of attack [deg]
-numB = 55;                                                                   % Number of boundary points (including endpoint)
+numB = 67;                                                                   % Number of boundary points (including endpoint)
 tO   = (360/(numB-1))/2;                                                    % Boundary point angle offset [deg]
 
 % Plotting flags
@@ -277,7 +277,7 @@ if (flagPlot(3) == 1)
     xlim([0 2*pi]);                                                         % Set X-limits
     ylim([-3.5 1.5]);                                                       % Set Y-limits
     title('Analytical and pressure coefficient plot');                      % Set title
-    legend([pA,pC],{'Analytical','SPM'},'Location','S');                    % Add legend
+    legend([pA,pC],{'Analytical - p. 230 Libro Fluido','SPM'},'Location','S');     % Add legend
 end
 
 % FIGURE: Streamlines (and quiver if commented in)

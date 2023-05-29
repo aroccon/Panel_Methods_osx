@@ -50,8 +50,8 @@ flagAirfoil.XFoilLoad   = 0;                                                % Lo
 
 % User-defined knowns
 Vinf = 1;                                                                   % Freestream velocity []
-AoA  = 0;                                                                   % Angle of attack [deg]
-NACA = '2412';                                                              % NACA airfoil to load [####]
+AoA  = 15;                                                                   % Angle of attack [deg]
+NACA = '2418';                                                              % NACA airfoil to load [####]
 
 % Convert angle of attack to radians
 alpha = AoA*(pi/180);                                                       % Angle of attack [rad]
@@ -413,6 +413,9 @@ if (flagPlot(6) == 1)
     ylabel('Y Units');                                                      % Set Y-label
     xlim(xVals);                                                            % Set X-axis limits
     ylim(yVals);                                                            % Set Y-axis limits
+    title('Pressusre coefficient')
+    colorbar
+    colormap hsv
     axis equal;                                                             % Set axes equal
     zoom reset;                                                             % Reset zoom
 end
