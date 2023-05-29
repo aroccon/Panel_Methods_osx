@@ -1,11 +1,11 @@
 # Panel_Methods
 
-This repository contains a version compatible with the OS-X environment of the panel methods developed and presented by jte0419.
-[Original repository ](https://github.com/jte0419/Panel_Methods)
+This repository contains a version compatible with the OS-X environment of the panel methods developed and presented by jte0419
+[(Original repository)](https://github.com/jte0419/Panel_Methods).
 
 Both Matlab and Python versions have been ported and tested on OS-X.
 
-How to install Xfoil for MAC OS X: [Xfoil_for_mac](https://github.com/nolankucd/Xfoil-for-Mac)
+How to install Xfoil for MAC OS X: [here](https://github.com/nolankucd/Xfoil-for-Mac)
 
 You can install Xfoil in any folder, then just copy the program "xfoil" from Xfoil-for-Mac/bin to the main folder of this repository.
 This is the deafult position from which is called from Matlab subroutines.
@@ -14,9 +14,9 @@ Fixed bugs (24/05/2023 Matlab version)
 -Wrong reading of the Cp_data results obtained from xfoil, only X-column is now provided (XFOIL.m)  
 -Wrong reading of the Global results (CL,CD,CM,etc.) obtained from xfoil (XFOIL.m)  
 
-Remarks:
-SP_circle.m/py (Source panel method for a Cylinder) requires Matlab/Python only. 
-*_Airfoil.m/py (Source/Vortex panel method for airfoils) require Matlab/Python and xfoil. 
+Remarks:   
+SP_circle.m/py (Source panel method for a Cylinder) requires Matlab/Python only.  
+*_Airfoil.m/py (Source/Vortex panel method for airfoils) require Matlab/Python and xfoil.   
 
 
 # Original documentation
